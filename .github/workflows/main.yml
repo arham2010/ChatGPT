@@ -1,2 +1,7 @@
+on:
+  push:
+    branches:
+      - '*'
+
 env:
-  api_key 
+  api_key: ${{secrets.KEY}}
